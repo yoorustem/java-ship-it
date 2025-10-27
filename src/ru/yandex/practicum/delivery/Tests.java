@@ -31,7 +31,6 @@ public class Tests {
 
         box.addParcel(parcel1);
         box.addParcel(parcel2);
-
         Assertions.assertEquals(1, box.getAllParcels().size());
     }
 }
